@@ -24,7 +24,7 @@ public class FirstTest {
             options.addArguments("headless");
             options.addArguments("disable-gpu");
             driver = new ChromeDriver(options);
-            driver.get("https://paylinn.com");
+            driver.get("https://gmibank-qa-environment.com");
             System.out.println("Title of the page is: " + driver.getTitle());
             System.out.println("we have a successful path that will allow executions");
             System.out.println("Title of the page is: " + driver.getTitle());
